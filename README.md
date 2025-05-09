@@ -12,7 +12,7 @@ Hello there! Thank you very much for deciding to plunge into our small assignmen
 
 2. Create an account in pico.sh
    - Enter this command in your terminal:
-       ssh signup@pico.sh
+       ssh pico.sh
    - In the "signup" prompt, enter your username (for example your first name)
    - You can create a token (recommended) or explore the service
   
