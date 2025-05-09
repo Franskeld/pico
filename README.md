@@ -13,17 +13,21 @@ Hello there! Thank you very much for deciding to plunge into our small assignmen
 
 2. Create an account in pico.sh
    - Enter this command in your terminal:
+     
        ssh pico.sh
    - In the "signup" prompt, enter your username (for example your first name)
    - You can create a token (recommended) or explore the service
   
 3. Copy the page  https://www.karl.berlin/simplicity.html in your local machine
    - Enter these commands in your terminal:
+  
        mkdir pico-pages && cd pico-pages
+   
        wget https://www.karl.berlin/simplicity.html
 
 4. Create a new Pages project and upload the page
      - Update the page by entering this command (replace "page_name" by the project name you like):
+       
          rsync -rv . pgs.sh:/page_name/
      - Connect to "https://username-page_name.pgs.sh/simplicity.html", replacing "username" and "page_name" by what you have chosen
   
