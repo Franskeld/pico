@@ -6,7 +6,8 @@ Hello there! Thank you very much for deciding to plunge into our small assignmen
 
 1. Create a SSH key that uses ED25519
    - Open a terminal
-   - Enter this command by replacing "your_email_address" by your email adddress:
+   - Enter this command by replacing "your_email_address" by your email address:
+  
        ssh-keygen -t ed25519 -C "your_email_address"
    - You can enter a passphrase if you like
 
